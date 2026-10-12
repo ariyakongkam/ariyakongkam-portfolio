@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Familje Färd",
     category: "School project",
-    description: "FamiljeFärd is a concept for a travel planning service designed to help families discover Stockholm together…",
+    description: "Familje Färd is a concept for a travel planning service designed to help families discover Stockholm together…",
     image: "familjefard.png",
     link: ""
   },
