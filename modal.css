@@ -1,0 +1,37 @@
+/* Case study pop-up. Loads after style.css */
+body.cm-open{overflow:hidden}
+dialog.cm{width:min(1000px,100%);max-width:100%;max-height:100dvh;height:100dvh;margin:0 auto;padding:0;border:0;background:var(--cream);color:var(--ink);overflow-y:auto;overscroll-behavior:contain}
+dialog.cm::backdrop{background:rgba(0,0,0,.6)}
+@media(min-width:760px){
+  dialog.cm{height:auto;max-height:calc(100dvh - 48px);margin:24px auto;border-radius:32px}
+}
+@media(prefers-reduced-motion:no-preference){
+  dialog.cm[open]{animation:cm-in .3s ease}
+  dialog.cm[open]::backdrop{animation:cm-fade .3s ease}
+  @keyframes cm-in{from{opacity:0;transform:translateY(24px)}}
+  @keyframes cm-fade{from{opacity:0}}
+}
+.cm-inner{padding:clamp(20px,4vw,48px)}
+.cm-close{position:sticky;top:0;float:right;z-index:3;font:600 .9rem var(--font);background:var(--pill);color:#fff;border:0;border-radius:999px;padding:10px 22px;cursor:pointer}
+.cm-close:hover{transform:translateY(-1px)}
+.cm-head{clear:both;padding-top:8px}
+.cm-head .cat{margin:0 0 14px}
+.cm-head h2{font-size:clamp(2.2rem,8vw,4.6rem);text-transform:uppercase;line-height:.95;margin:0}
+.cm-head .lead{margin-top:16px}
+.cm-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;margin:28px 0;padding:20px 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.cm-meta dt{color:var(--grey);font-size:.85rem}
+.cm-meta dd{margin:2px 0 0;font-weight:600}
+.cm-media{position:relative;margin:0;border-radius:24px;overflow:hidden;background:var(--paper);aspect-ratio:4/3}
+.cm-media.hero,.cm-media.wide{aspect-ratio:16/9;grid-column:1/-1}
+.cm-media img,.cm-media video,.cm-media iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.cm-media video{background:#000}
+.cm-media.logo img{object-fit:contain;padding:clamp(16px,5vw,56px)}
+.cm-block{display:grid;grid-template-columns:1fr 2fr;gap:clamp(12px,4vw,48px);padding:clamp(24px,4vw,44px) 0;border-bottom:1px solid var(--line)}
+.cm-block h3{font-size:clamp(1.15rem,2.4vw,1.5rem);margin:0}
+.cm-block p+p{margin-top:1em}
+.cm-gallery{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,2vw,20px);padding-top:clamp(24px,4vw,44px)}
+.cm-meta+.cm-media{margin-bottom:0}
+@media(max-width:640px){
+  .cm-block{grid-template-columns:1fr}
+  .cm-gallery{grid-template-columns:1fr}
+}

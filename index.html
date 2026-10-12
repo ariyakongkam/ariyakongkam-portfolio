@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ariya Kongkam | UX/UI, Graphic Design & Digital Marketing</title>
+<meta name="description" content="Portfolio of Ariya Kongkam: UX/UI and graphic design, digital marketing and social media. Based in Stockholm.">
+<meta property="og:title" content="Ariya Kongkam | Portfolio">
+<meta property="og:description" content="UX/UI, graphic design and digital marketing.">
+<meta property="og:type" content="website">
+<!-- [WEBSITE URL] add <link rel="canonical" href="..."> and og:image once you have a domain -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="modal.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Ariya Kongkam","jobTitle":"Digital Marketing Intern, UX/UI and Graphic Designer","email":"mailto:ariyakongkam123@gmail.com","sameAs":["https://www.linkedin.com/in/ariya-kongkam/"],"alumniOf":"Södertörn University"}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <a class="logo" href="#home" aria-label="Ariya Kongkam, home">AK</a>
+  <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact" class="pill-link">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Ariya<br>Kongkam</h1>
+    <p class="role-line"><span>I work with</span>
+      <span class="roles" aria-live="off">
+        <b class="on">UX/UI design</b><b>graphic design</b><b>digital marketing</b>
+      </span>
+    </p>
+    <p class="lead">I previously studied ICT,Media and Design. I enjoy to work where design and communication meet. As of today, I’m a Digital Marketing Intern at Nytt IQ.</p>
+    <div class="actions">
+      <a class="btn" href="#projects">View cases</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="hero-photo" aria-hidden="false">
+    <div class="paper">
+      <div class="photo"><img src="images/ariya.png" alt="Portrait of Ariya Kongkam"></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Case study</h2>
+  <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+  <div class="grid" id="project-grid"></div>
+</section>
+
+<section id="about">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <p class="big-text">I'm a creative and organized person who enjoys working with both design and communication.</p>
+    <div class="prose">
+      <p>I studied ICT, Media and Design at Södertörn University, since then I've worked within graphic- and UX/UI design, web design, sales and marketing, IT support and logistics planning.</p>
+      <p>I'm detail-oriented and curious, and I like learning new things. I work best in a structured way, but at the same time get the chance to be creative.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skill-groups" id="skill-groups"></div>
+  <p class="langs"><b>Languages:</b> Swedish and English, both native or bilingual proficiency.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="exp" id="timeline"></div>
+  <h3 class="sub">Education</h3>
+  <ul class="edu" id="edu"></ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let’s get in touch!</h2>
+  <p class="lead">Want to know more about me? Send me a message.</p>
+  <div class="contact-links">
+    <a class="btn" href="mailto:ariyakongkam123@gmail.com">ariyakongkam123@gmail.com</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/ariya-kongkam/" target="_blank" rel="noopener">LinkedIn</a>
+    <!-- [OTHER LINKS]: Instagram, Behance, Dribbble, etc. Copy a line above and change the link. -->
+  </div>
+</section>
+</main>
+
+<footer><span>© <span id="year"></span> Ariya Kongkam</span><a href="#home">Back to top</a></footer>
+<script src="script.js"></script>
+<script src="case-studies.js"></script>
+</body>
+</html>
