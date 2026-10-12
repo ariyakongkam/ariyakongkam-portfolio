@@ -5,10 +5,10 @@
 /* ---- PROJECTS: copy one block to add a project ---- */
 const projects = [
   {
-    title: "FamiljeFärd",
+    title: "Familje Färd",
     category: "School project",
     description: "FamiljeFärd is a concept for a travel planning service designed to help families discover Stockholm together…",
-    image: "main/familjefärd.png",
+    image: "main/familjefard.png",
     link: ""
   },
   {
