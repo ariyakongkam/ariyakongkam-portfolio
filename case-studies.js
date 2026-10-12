@@ -79,9 +79,9 @@ const caseStudies = {
       ["The solution", "Our team designed a digital concept that extends the museum experience beyond its physical location. The solution focused on creating an interactive and educational platform that allows students across the country to explore economics through engaging content and activities. By combining accessibility with a user-centered design approach, we aimed to make learning about economics more approachable and enjoyable for a younger audience."],
     ],
     media: [
-      { type: "image", src: "images/ekonomiska2.png"},
-      { type: "image", src: "images/ekonomiska3.png"},
-      { type: "image", src: "images/ekonomiska4.png"}
+      { type: "image", src: "ekonomiska2.png"},
+      { type: "image", src: "ekonomiska3.png"},
+      { type: "image", src: "ekonomiska4.png"}
     ]
     },
     "Studio Pixel": {
@@ -93,9 +93,9 @@ const caseStudies = {
       ["Timeline", "12 Nov 2024 - 14 Nov 2024"],
       ["Type", "Internship"]
     ],
-    hero: { type: "image", src: "images/studiopixel.png" },
+    hero: { type: "image", src: "studiopixel.png" },
     media: [
-      { type: "image", src: "images/studiopixel2.png"},
+      { type: "image", src: "studiopixel2.png"},
     ]
     },
     "Nytt IQ - Huntry": {
@@ -107,10 +107,10 @@ const caseStudies = {
       ["Timeline", "23 August 2026 - X february 2027"],
       ["Type", "Internship"]
     ],
-    hero: { type: "image", src: "images/Huntry-white.png" },
+    hero: { type: "image", src: "Huntry-white.png" },
         media: [
-      { type: "image", src: "images/Huntry-icon-PNG.png"},
-      { type: "image", src: "images/Huntry-white.png"},
+      { type: "image", src: "Huntry-icon-PNG.png"},
+      { type: "image", src: "Huntry-white.png"},
     ]
     },
     "Nynäs Bowling": {
@@ -122,7 +122,7 @@ const caseStudies = {
       ["Timeline", "2022"],
       ["Type", "School project"]
     ],
-    hero: { type: "image", src: "images/logotype_nynashamnbowling.png" },
+    hero: { type: "image", src: "logotype_nynashamnbowling.png" },
     },
     "Valorant - KillJoy": {
     category: "Graphic Design",
@@ -133,7 +133,7 @@ const caseStudies = {
       ["Timeline", "14 November 2022"],
       ["Type", "Personal"]
     ],
-    hero: { type: "image", src: "images/ValorantSpray.png" },
+    hero: { type: "image", src: "ValorantSpray.png" },
     }
 };
 
