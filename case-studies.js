@@ -1,14 +1,5 @@
 /* =========================================================
    CASE STUDIES: the pop-ups that open when a project card is clicked.
-   Each entry must use the SAME title as the project in script.js.
-   Delete a line you don't need. Paths start with "images/" or "videos/".
-
-   media items look like:
-     { type: "image",   src: "images/x.png", alt: "what it shows" }
-     { type: "video",   src: "videos/x.mp4", poster: "images/cover.png" }
-     { type: "youtube", src: "VIDEO_ID_ONLY" }
-   Add  wide: true  for a full-width item, and  logo: true  to show a
-   logo or graphic whole instead of cropped.
    ========================================================= */
 const caseStudies = {
   "FamiljeFärd": {
@@ -21,7 +12,7 @@ const caseStudies = {
       ["Brand", "VisitStockholm"],
       ["Type", "School Project"]
     ],
-    hero: { type: "image", src: "images/familjefärd.png", alt: "FamiljeFärd logotype" },
+    hero: { type: "image", src: "familjefärd.png", alt: "FamiljeFärd logotype" },
     sections: [
       ["Overview", "FamiljeFärd is a concept for a travel planning service designed to help families discover Stockholm together. The project encourages children to become active participants in planning family trips by making the experience engaging, playful and accessible. Rather than focusing only on efficiency, the service aims to create excitement before the journey even begins."],
       ["About the project", "During the course Design Methods and Creative Processes, we collaborated with VisitStockholm to explore creative solutions around the theme \"Travel without travelling.\"\n\nThe project focused on designing a family-friendly travel planner that encourages children to participate in choosing destinations and activities. The goal was to transform travel planning into an enjoyable experience for the whole family while promoting collaboration, curiosity and shared decision-making."],
@@ -29,8 +20,8 @@ const caseStudies = {
       ["The solution", "Develop a visual identity that feels welcoming, playful and easy to understand. The branding should encourage exploration, appeal to both parents and children and communicate joy while remaining functional and memorable."]
     ],
     media: [
-      { type: "image", src: "images/familjefard-w.png", alt: "FamiljeFärd logotype, light version" },
-      { type: "image", src: "images/familjefard-b.png", alt: "FamiljeFärd logotype, dark version" }
+      { type: "image", src: "familjefard-w.png", alt: "FamiljeFärd logotype, light version" },
+      { type: "image", src: "familjefard-b.png", alt: "FamiljeFärd logotype, dark version" }
     ]
   },
 
@@ -43,15 +34,15 @@ const caseStudies = {
       ["Timeline", "12 Nov 2024 – 14 Nov 2024"],
       ["Type", "Personal"]
     ],
-    hero: { type: "image", src: "images/kvarteretthai.png" },
+    hero: { type: "image", src: "kvarteretthai.png" },
     sections: [
       ["Overview", "The visual identity was created for Kvarteret Thai, a restaurant with the goal of strengthening its connection to Thai culture and authentic cuisine. The objective was to design a memorable and recognizable logotype that reflects the restaurant's heritage while communicating its focus on food and hospitality."],
       ["The challenge", "The challenge was to create a logo that combined cultural identity with a modern and simple design. It needed to clearly communicate the restaurant's Thai roots while remaining versatile across menus, signage, packaging, and digital platforms."],
       ["The solution", "To reinforce the restaurant's identity, the colors of the Thai flag were incorporated into the logo. The letter \"H\" was creatively transformed into a fork, symbolizing food and dining while adding a unique visual element to the design. The slogan \"Taste of Thailand\" was included to further highlight the restaurant's authentic culinary experience and strengthen its brand message."]
     ],
     media: [
-      { type: "image", src: "images/mockup_kvarteretthai.png", wide: true },
-      { type: "image", src: "images/moodboard_kvarteretthai.png" },
+      { type: "image", src: "mockup_kvarteretthai.png", wide: true },
+      { type: "image", src: "moodboard_kvarteretthai.png" },
     ]
   },
 
@@ -64,11 +55,11 @@ const caseStudies = {
       ["Timeline", "7 July 2026 - 10 July 2026"],
       ["Type", "Client"]
     ],
-    hero: { type: "image", src: "images/joy2.png" },
+    hero: { type: "image", src: "joy2.png" },
     media: [
-      { type: "image", src: "images/joy1.png"},
-      { type: "image", src: "images/JOY-logo.png"},
-      { type: "image", src: "images/joy3.png"}
+      { type: "image", src: "joy1.png"},
+      { type: "image", src: "JOY-logo.png"},
+      { type: "image", src: "joy3.png"}
     ]
   },
     "Ekonomiska Museet": {
@@ -80,7 +71,7 @@ const caseStudies = {
       ["Timeline", "6 May 2024 - 31 May 2024"],
       ["Type", "School Project"]
     ],
-    hero: { type: "image", src: "images/ekonomiska.png" },
+    hero: { type: "image", src: "ekonomiska.png" },
     sections: [
       ["Overview", "The Ekonomiska museet is dedicated to exploring topics related to economics, finance and society through interactive and educational experiences. As part of a university project, our team was tasked with developing a concept that would help the museum engage audiences across Sweden, with a particular focus on high school students aged 16–18."],
       ["About the project", "This project was developed in collaboration with the Ekonomsika Museet as part of my studies at Södertörn University. Our goal was to explore how digital design could help the museum reach a wider audience beyond its physical location in Stockholm. Working as a team, we followed a user-centered design process to create an engaging concept for high school students aged 16–18, making topics such as economics, finance and society more accessible and inspiring through a digital experience."],
@@ -147,7 +138,7 @@ const caseStudies = {
 };
 
 /* =========================================================
-   Pop-up logic (no need to edit below)
+   Pop-up logic
    ========================================================= */
 (function () {
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
