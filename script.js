@@ -2,92 +2,90 @@
    EDIT YOUR CONTENT HERE. The page builds itself from these lists.
    ========================================================= */
 
-/* ---- PROJECTS: copy one block to add a project ----
-   image: path like "images/project.jpg" (leave "" to show a placeholder)
-   link:  case study page or URL (leave "" for no link)            */
+/* ---- PROJECTS: copy one block to add a project ---- */
 const projects = [
   {
     title: "FamiljeFärd",
     category: "School project",
     description: "FamiljeFärd is a concept for a travel planning service designed to help families discover Stockholm together…",
-    image: "images/familjefärd.png",
+    image: "familjefärd.png",
     link: ""
   },
   {
     title: "Kvarteret Thai",
     category: "Personal",
     description: "The visual identity was created for Kvarteret Thai, a restaurant with the goal of strengthening…",
-    image: "images/kvarteretthai.png",
+    image: "kvarteretthai.png",
     link: ""
   },
   {
     title: "Joy",
     category: "Client",
     description: "JOY is a slow travel brand that inspires people to explore nature, slow down, and create meaningful memories across Sweden and the Nordic countries.",
-    image: "images/joy2.png",
+    image: "joy2.png",
     link: ""
   },
   {
     title: "Studio Pixel",
     category: "Internship",
     description: "During my internship at Studio Pixel, I had the opportunity to apply my knowledge in a professional environment…",
-    image: "images/studiopixel.png",
+    image: "studiopixel.png",
     link: ""
   },
   {
     title: "Nytt IQ - Huntry",
     category: "Internship",
     description: "",
-    image: "images/Huntry-white.png",
+    image: "Huntry-white.png",
     link: ""
   },
   {
     title: "Nynäs Bowling",
     category: "School project",
     description: "",
-    image: "images/nynasbowling.png",
+    image: "nynasbowling.png",
     link: ""
   },
   {
     title: "Ekonomiska Museet",
     category: "School project",
     description: "The Ekonomiska museet is dedicated to exploring topics related to economics, finance and society...",
-    image: "images/ekonomiska.png",
+    image: "ekonomiska.png",
     link: ""
   },
   {
     title: "RCO",
     category: "Personal",
     description: "An independent UI/UX redesign created as a personal case study. This project was not commissioned, endorsed or affiliated with RCO Security. Check out the prototype: https://www.figma.com/proto/2iFyswa2LE0g35CkyYpm4G/Untitled?node-id=373-255&t=kObbRe8gNDbIX2xZ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=103%3A129",
-    image: "images/rco.png",
+    image: "rco.png",
     link: ""
   },
   {
     title: "Valorant - KillJoy",
     category: "Personal",
     description: "An independent UI/UX redesign created as a personal case study. This project was not commissioned, endorsed or affiliated with Riot Games / Valorant",
-    image: "images/ValorantSpray.png",
+    image: "ValorantSpray.png",
     link: ""
   },
   {
     title: "FN Day",
     category: "School project",
     description: "",
-    image: "images/fnday.png",
+    image: "fnday.png",
     link: ""
   },
   {
     title: "Dan Carino",
     category: "School project",
     description: "",
-    image: "images/dancarino.png",
+    image: "dancarino.png",
     link: ""
   },
   {
     title: "Canva Trend",
     category: "Personal",
     description: "",
-    image: "images/CanvaTrend.png",
+    image: "CanvaTrend.png",
     link: ""
   }
 ];
