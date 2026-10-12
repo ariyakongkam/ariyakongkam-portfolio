@@ -2,7 +2,7 @@
    CASE STUDIES: the pop-ups that open when a project card is clicked.
    ========================================================= */
 const caseStudies = {
-  "FamiljeFärd": {
+  "Familje Färd": {
     category: "Logotype",
     intro: "Travel planning service for families in Stockholm",
     meta: [
@@ -12,7 +12,7 @@ const caseStudies = {
       ["Brand", "VisitStockholm"],
       ["Type", "School Project"]
     ],
-    hero: { type: "image", src: "familjefärd.png", alt: "FamiljeFärd logotype" },
+    hero: { type: "image", src: "familjefard.png", alt: "FamiljeFärd logotype" },
     sections: [
       ["Overview", "FamiljeFärd is a concept for a travel planning service designed to help families discover Stockholm together. The project encourages children to become active participants in planning family trips by making the experience engaging, playful and accessible. Rather than focusing only on efficiency, the service aims to create excitement before the journey even begins."],
       ["About the project", "During the course Design Methods and Creative Processes, we collaborated with VisitStockholm to explore creative solutions around the theme \"Travel without travelling.\"\n\nThe project focused on designing a family-friendly travel planner that encourages children to participate in choosing destinations and activities. The goal was to transform travel planning into an enjoyable experience for the whole family while promoting collaboration, curiosity and shared decision-making."],
