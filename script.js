@@ -92,11 +92,45 @@ const projects = [
 
 /* ---- SKILLS ---- */
 const skills = {
-  "Design": ["UX/UI design", "Graphic design", "Web design", "Prototyping (Lo-fi to Hi-fi)", "Design methods"],
-  "Marketing": s: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Marketing Coordinator"],
-  "Digital / ICT": ["E-commerce", "HTML", "CSS"],
-  "Planning": ["Miro", "Notion", "Jira"],
-  "Creative tools": ["Figma", "Davinci Resolve", "Canva", "CapCut", "Adobe Illustrator", "Adobe Premier Pro", "Adobe Photoshop", "Adobe InDesign"]
+  "Design": [
+    "UX/UI design",
+    "Graphic design",
+    "Web design",
+    "Prototyping (Lo-fi to Hi-fi)",
+    "Design methods"
+  ],
+  "Marketing": [
+    "Social Media Management",
+    "Graphic- & UX/UI design",
+    "Video Content",
+    "Copywriting",
+    "Content Marketing",
+    "SEO",
+    "Marketing Analytics",
+    "Content Strategy",
+    "Brand Management",
+    "Marketing Coordination"
+  ],
+  "Digital / ICT": [
+    "E-commerce",
+    "HTML",
+    "CSS"
+  ],
+  "Planning": [
+    "Miro",
+    "Notion",
+    "Jira"
+  ],
+  "Creative tools": [
+    "Figma",
+    "DaVinci Resolve",
+    "Canva",
+    "CapCut",
+    "Adobe Illustrator",
+    "Adobe Premiere Pro",
+    "Adobe Photoshop",
+    "Adobe InDesign"
+  ]
 };
 
 /* ---- EXPERIENCE (newest first) ---- */
