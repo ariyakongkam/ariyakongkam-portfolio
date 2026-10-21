@@ -133,21 +133,75 @@ const skills = {
   ]
 };
 
-/* ---- EXPERIENCE (newest first) ---- */
+
 const experience = [
-  { role: "Digital Marketing Intern", org: "Nytt IQ", when: "August 2026 – Now",
-    points: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Marketing Coordinator"] },
-  { role: "Freelance", org: "Kongkam Studios", when: "March 2026 – August 2026",
-    points: ["Graphic- & UX/UI design", "Identifying optimization opportunities"] },
-  { role: "H&M Helpdesk Agent", org: "IT Bemanning", when: "November 2025 – August 2026",
-    points: ["IT support with high quality", "VIP support, assisting VIP users", "Hands-on support at Tech Lounge in Sporren"] },
-  { role: "Sales & Marketing", org: "Studio Pixel", when: "May 2025 – August 2025",
-    points: ["Supporting client acquisition", "Business development", "Marketing", "Sales initiatives"] },
-  { role: "Graphic-, UX/UI- & Web designer Internship", org: "Studio Pixel", when: "February 2025 – May 2025",
-    points: ["Graphic- & UX/UI design", "Web design & development", "Prototyping (Lo-fi, Mid-fi & Hi-fi)", "Design methods", "E-commerce development (WooCommerce)"] },
-  { role: "Dispatch Planner", org: "Nynas", when: "June 2024 – August 2024",
-    points: ["Planning & coordinating daily transportation", "Managing logistics flows", "Ensuring efficient operations"] }
+  {
+    role: "Digital Marketing Intern",
+    org: "Nytt IQ",
+    when: "August 2026 – Present",
+    points: [
+      "Managing social media content across LinkedIn, Instagram and TikTok",
+      "Creating graphics, videos and marketing materials",
+      "Writing blog articles, copy and SEO-focused content",
+      "Analyzing weekly and monthly social media performance",
+      "Planning content strategies and marketing campaigns",
+      "Supporting brand development for Nytt IQ and Huntry",
+      "Coordinating creative tasks with team members"
+    ]
+  },
+  {
+    role: "Freelance Designer",
+    org: "Kongkam Studios",
+    when: "March 2026 – August 2026",
+    points: [
+      "Graphic design and UX/UI design",
+      "Identifying opportunities for website optimization"
+    ]
+  },
+  {
+    role: "IT Helpdesk Agent",
+    org: "IT Bemanning (H&M)",
+    when: "November 2025 – August 2026",
+    points: [
+      "Providing first-line IT support and troubleshooting",
+      "Delivering technical support to VIP users",
+      "Providing hands-on support at the Tech Lounge"
+    ]
+  },
+  {
+    role: "Sales & Marketing",
+    org: "Studio Pixel",
+    when: "May 2025 – August 2025",
+    points: [
+      "Supporting client acquisition and B2B outreach",
+      "Contributing to business development",
+      "Supporting marketing and sales initiatives"
+    ]
+  },
+  {
+    role: "Graphic, UX/UI & Web Design Intern",
+    org: "Studio Pixel",
+    when: "February 2025 – May 2025",
+    points: [
+      "Graphic design and UX/UI design",
+      "Website design and development",
+      "Creating low- to high-fidelity prototypes",
+      "Applying user-centered design methods",
+      "Developing e-commerce solutions using WooCommerce"
+    ]
+  },
+  {
+    role: "Dispatch Planner",
+    org: "Nynas",
+    when: "June 2024 – August 2024",
+    points: [
+      "Planning and coordinating daily transportation",
+      "Managing logistics and dispatch operations",
+      "Supporting efficient daily operations"
+    ]
+  }
 ];
+
 
 const education = [
   { school: "Södertörn University", field: "ICT, Media & Design", when: "September 2022 – June 2025" },
