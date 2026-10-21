@@ -93,7 +93,7 @@ const projects = [
 /* ---- SKILLS ---- */
 const skills = {
   "Design": ["UX/UI design", "Graphic design", "Web design", "Prototyping (Lo-fi to Hi-fi)", "Design methods"],
-  "Marketing": s: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Organic Growth"],
+  "Marketing": s: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Marketing Coordinator"],
   "Digital / ICT": ["E-commerce", "HTML", "CSS"],
   "Planning": ["Miro", "Notion", "Jira"],
   "Creative tools": ["Figma", "Davinci Resolve", "Canva", "CapCut", "Adobe Illustrator", "Adobe Premier Pro", "Adobe Photoshop", "Adobe InDesign"]
@@ -102,7 +102,7 @@ const skills = {
 /* ---- EXPERIENCE (newest first) ---- */
 const experience = [
   { role: "Digital Marketing Intern", org: "Nytt IQ", when: "August 2026 – Now",
-    points: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Organic Growth"] },
+    points: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Marketing Coordinator"] },
   { role: "Freelance", org: "Kongkam Studios", when: "March 2026 – August 2026",
     points: ["Graphic- & UX/UI design", "Identifying optimization opportunities"] },
   { role: "H&M Helpdesk Agent", org: "IT Bemanning", when: "November 2025 – August 2026",
