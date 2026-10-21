@@ -102,7 +102,7 @@ const skills = {
 /* ---- EXPERIENCE (newest first) ---- */
 const experience = [
   { role: "Digital Marketing Intern", org: "Nytt IQ", when: "August 2026 – Now",
-    points: ["Managing SoMe e.g. content, accounts", "Analyzing data", "Graphic- & UX/UI design"] },
+    points: ["Social Media Management", "Graphic- & UX/UI design", "Video Content", "Copywriting", "Content Marketing", "SEO", "Marketing Analytics", "Content Strategy", "Brand Management", "Organic Growth"] },
   { role: "Freelance", org: "Kongkam Studios", when: "March 2026 – August 2026",
     points: ["Graphic- & UX/UI design", "Identifying optimization opportunities"] },
   { role: "H&M Helpdesk Agent", org: "IT Bemanning", when: "November 2025 – August 2026",
